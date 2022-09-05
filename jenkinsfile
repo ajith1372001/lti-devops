@@ -9,6 +9,7 @@ node {
         mvnHome = tool 'M3'
     }
     stage('Build') {
+        def buildNumber = currentBuild.number
         // Run the maven build
         withEnv(["MVN_HOME=$mvnHome"]) {
             if (isUnix()) {
