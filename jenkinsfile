@@ -10,6 +10,7 @@ node {
     }
     stage('Build') {
         def buildNumber = currentBuild.number
+        sh "echo='hello world var=$buildNumber'"
         // Run the maven build
         withEnv(["MVN_HOME=$mvnHome"]) {
             if (isUnix()) {
