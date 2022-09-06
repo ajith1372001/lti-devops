@@ -1,0 +1,19 @@
+{
+  "name": "lti-devops",
+  "version": "1.0.0",
+  "description": "learning devops",
+  "main": "cl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajith1372001/lti-devops.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajith1372001/lti-devops/issues"
+  },
+  "homepage": "https://github.com/ajith1372001/lti-devops#readme"
+}
