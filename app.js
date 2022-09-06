@@ -1,1 +1,1 @@
-document.write("ajith");
+console.log("ajith");
